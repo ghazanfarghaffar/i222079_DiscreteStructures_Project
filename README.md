@@ -6,19 +6,19 @@ The task of the tourist guide is to move around the tourists while using minimum
 For Example:
 To take 99 tourists from city 1 to city 7, he will require at least 4 trips, and the route he would take is: 1 - 2 - 4 - 7.
 
-      V2---------60---------V5
-     /  \                     \
-    /    \                     \
-  30      25                   20  
-  /        \                     \
- /          \                     \
-V1----10----V4----------35---------V7
- \          /
-  \        /
-  15      40
-    \    /
-     \  /
-      V3------20------V6
+#                      V2---------60---------V5
+#                     /  \                     \
+#                    /    \                     \
+#                  30      25                   20  
+#                  /        \                     \
+#                 /          \                     \
+#                V1----10----V4----------35---------V7
+#                 \          /
+#                  \        /
+#                  15      40
+#                    \    /
+#                     \  /
+#                      V3------20------V6
 
 
 It only works in linux terminal for now because of system functions and will be updated soon.
